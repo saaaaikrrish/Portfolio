@@ -203,7 +203,7 @@ function initTerminal() {
 [+] COMMUNICATION ENDPOINTS:
     • Email: peddentiraghavendra@gmail.com
     • Phone: +91 9392538857
-    • LinkedIn: https://linkedin.com/in/raghavendra-peddinti
+    • LinkedIn: https://www.linkedin.com/in/raghavendra-peddinti-51a759266
     • GitHub: https://github.com/saaaaikrrish
     • TryHackMe: https://tryhackme.com/p/raghavsai90
     `,

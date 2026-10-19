@@ -2,7 +2,7 @@
 
 [![Live Site](https://img.shields.io/badge/Live_Portfolio-saaaaikrrish.github.io%2FPortfolio-00f0ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://saaaaikrrish.github.io/Portfolio/)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Top%2020%25%20(34%2B%20Rooms)-ef4444?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/raghavsai90)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Raghavendra%20Peddinti-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/raghavendra-peddinti)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Raghavendra%20Peddinti-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raghavendra-peddinti-51a759266)
 
 Welcome to my cybersecurity portfolio repository! This site showcases my verified security achievements, live web VAPT findings, digital forensic procedures, and automation pipelines.
 
