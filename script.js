@@ -192,11 +192,10 @@ function initTerminal() {
     `,
 
     education: () => `
-[+] ACADEMIC BACKGROUND:
+[+] ACADEMIC TRACK:
     • B.Tech - Computer Science (Cyber Security) | GITAM University, Hyderabad (2022 - 2026)
       CGPA: 7.5 / 10
-    • Intermediate (MPC) | Sri Chaitanya Junior Kalasala (2020 - 2022) | 82.6%
-    • Secondary Education (CBSE) | Bharatiya Vidya Bhavan's Public School (2020) | 77%
+      Focus: Cryptography, Network Defense, SIEM Log Analysis & Operating Systems
     `,
 
     contact: () => `
