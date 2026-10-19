@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P. Raghavendra | Cybersecurity Portfolio & SOC Profile</title>
+  <meta name="description" content="Portfolio of P. Raghavendra - Cybersecurity graduate specializing in SOC Operations, VAPT, SIEM Log Analysis, and Digital Forensics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cyber Background Canvas -->
+  <canvas id="cyber-canvas"></canvas>
+
+  <!-- Top Security Status Banner -->
+  <header class="hud-bar">
+    <div class="hud-container">
+      <div class="hud-status">
+        <span class="status-indicator pulse"></span>
+        <span class="hud-label">SOC STATUS:</span>
+        <span class="hud-value neon-green">ACTIVE DEFENSE // READY FOR DISPATCH</span>
+      </div>
+      <div class="hud-telemetry">
+        <span class="telemetry-item"><span class="key">CLEARANCE:</span> <span class="val">B.Tech Cyber Security</span></span>
+        <span class="telemetry-item"><span class="key">LOCATION:</span> <span class="val">Hyderabad, IN [17.3850° N, 78.4867° E]</span></span>
+        <span class="telemetry-item"><span class="key">THM RANK:</span> <span class="val neon-cyan">TOP 20% (34 Rooms)</span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Navigation -->
+  <nav class="cyber-nav" id="main-nav">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="bracket">[</span><span class="brand-text">RAGHAVENDRA.SEC</span><span class="bracket">]</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#achievements" class="nav-link"><span class="nav-num">01.</span> Achievements</a></li>
+        <li><a href="#experience" class="nav-link"><span class="nav-num">02.</span> Experience</a></li>
+        <li><a href="#arsenal" class="nav-link"><span class="nav-num">03.</span> Security Arsenal</a></li>
+        <li><a href="#terminal-section" class="nav-link"><span class="nav-num">04.</span> Interactive CLI</a></li>
+        <li><a href="#education" class="nav-link"><span class="nav-num">05.</span> Certs & Edu</a></li>
+        <li><a href="#contact" class="btn-nav">Contact SOC</a></li>
+      </ul>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-icon">🛡️</span>
+            <span>SECURITY OPERATIONS & THREAT MANAGEMENT SPECIALIST</span>
+          </div>
+          <h1 class="hero-title">
+            P. <span class="gradient-text">Raghavendra</span>
+          </h1>
+          <p class="hero-subtitle">
+            Cybersecurity graduate with proven experience in <span class="highlight">SOC Log Analysis</span>, 
+            <span class="highlight">VAPT</span> on live web systems, and <span class="highlight">Digital Forensics</span>. 
+            Trained in Splunk SIEM, network defense, evidence preservation, and privacy-first automation.
+          </p>
+
+          <!-- Core Metrics Strip -->
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <div class="metric-number neon-cyan">4</div>
+              <div class="metric-label">Live Web Vulns Disclosed (1 High, 1 Med, 2 Low)</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number neon-green">83%</div>
+              <div class="metric-label">OCR Bottleneck Reduction (30m → 5m per docket)</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number neon-purple">Top 20%</div>
+              <div class="metric-label">TryHackMe Global Rank (34+ Rooms Cleared)</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number neon-yellow">100%</div>
+              <div class="metric-label">Chain-of-Custody Compliant Forensic Extractions</div>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#achievements" class="btn-primary">
+              <span>Inspect Security Case Studies</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#terminal-section" class="btn-secondary">
+              <span class="terminal-prompt-icon">&gt;_</span>
+              <span>Launch Cyber Terminal</span>
+            </a>
+            <a href="mailto:peddentiraghavendra@gmail.com" class="btn-outline">
+              <span>Deploy to Team</span>
+            </a>
+          </div>
+
+          <!-- Quick Contact Pill Bar -->
+          <div class="quick-contacts">
+            <a href="mailto:peddentiraghavendra@gmail.com" class="contact-pill" title="Email">
+              <span class="pill-icon">✉️</span> peddentiraghavendra@gmail.com
+            </a>
+            <a href="tel:+919392538857" class="contact-pill" title="Phone">
+              <span class="pill-icon">📞</span> +91 9392538857
+            </a>
+            <a href="https://linkedin.com/in/raghavendra-peddinti" target="_blank" rel="noopener" class="contact-pill" title="LinkedIn">
+              <span class="pill-icon">🔗</span> LinkedIn
+            </a>
+            <a href="https://github.com/saaaaikrrish" target="_blank" rel="noopener" class="contact-pill" title="GitHub">
+              <span class="pill-icon">💻</span> GitHub
+            </a>
+            <a href="https://tryhackme.com/p/raghavsai90" target="_blank" rel="noopener" class="contact-pill" title="TryHackMe">
+              <span class="pill-icon">🎯</span> TryHackMe
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY ACHIEVEMENTS DEEP DIVE -->
+    <section class="section-container" id="achievements">
+      <div class="section-header">
+        <div class="section-tag">// MISSION LOG</div>
+        <h2 class="section-title">Verified Cybersecurity <span class="gradient-text">Achievements</span></h2>
+        <p class="section-desc">Real-world operational outcomes across offensive testing, forensic data recovery, and automated threat defense.</p>
+      </div>
+
+      <div class="achievements-cards-grid">
+        <!-- Card 1: VAPT -->
+        <article class="achievement-card glow-border">
+          <div class="card-badge red-badge">VAPT & WEB RECON</div>
+          <div class="card-header">
+            <h3>Live Production Website Assessment (SCSC)</h3>
+            <span class="card-timeline">May 2026 – Present</span>
+          </div>
+          <p class="card-summary">
+            Executed an authorized Vulnerability Assessment & Penetration Testing engagement on a live production web application, identifying critical OWASP Top 10 vulnerabilities and misconfigurations.
+          </p>
+          <div class="vuln-breakdown">
+            <div class="vuln-item high">
+              <span class="vuln-severity">1 HIGH</span>
+              <span class="vuln-detail">Missing SSL certification & root information disclosure</span>
+            </div>
+            <div class="vuln-item medium">
+              <span class="vuln-severity">1 MEDIUM</span>
+              <span class="vuln-detail">HTTP TRACE enabled (Cross-Site Tracing / XST vulnerability)</span>
+            </div>
+            <div class="vuln-item low">
+              <span class="vuln-severity">2 LOW</span>
+              <span class="vuln-detail">Outdated server components & orphaned PNG in root dir</span>
+            </div>
+          </div>
+          <div class="card-action-taken">
+            <span class="section-subtitle">Methodology & Tooling:</span>
+            <ul class="feature-bullets">
+              <li>Reconnaissance & port scanning via <code>Nmap</code>, <code>Nikto</code>, and <code>Feroxbuster</code> to map the attack surface.</li>
+              <li>Validated HTTP TRACE method bypass risks and sensitive resource leakage.</li>
+              <li>Authored an executive-level VAPT remediation report with CVSS impact ratings to guide leadership action.</li>
+            </ul>
+          </div>
+          <div class="tag-row">
+            <span class="tech-tag">Nmap</span>
+            <span class="tech-tag">Burp Suite</span>
+            <span class="tech-tag">Feroxbuster</span>
+            <span class="tech-tag">Nikto</span>
+            <span class="tech-tag">OWASP Top 10</span>
+            <span class="tech-tag">XST Mitigation</span>
+          </div>
+        </article>
+
+        <!-- Card 2: AI & Law Enforcement Automation -->
+        <article class="achievement-card glow-border">
+          <div class="card-badge blue-badge">LEO PORTAL AUTOMATION</div>
+          <div class="card-header">
+            <h3>Privacy-Preserving Law Enforcement OCR Pipeline</h3>
+            <span class="card-timeline">SCSC Security Council</span>
+          </div>
+          <p class="card-summary">
+            Discovered a critical operational bottleneck during a field visit to a law enforcement data portal where officers manually transcribed case evidence taking ~30 mins per document.
+          </p>
+          <div class="metrics-pill-row">
+            <div class="metric-pill">
+              <span class="num">30m → 5m</span>
+              <span class="lbl">6x Processing Throughput</span>
+            </div>
+            <div class="metric-pill">
+              <span class="num">~85%</span>
+              <span class="lbl">OCR Extraction Accuracy</span>
+            </div>
+            <div class="metric-pill">
+              <span class="num">0 Cloud Leaks</span>
+              <span class="lbl">Local Ollama LLM Copilot</span>
+            </div>
+          </div>
+          <div class="card-action-taken">
+            <span class="section-subtitle">Architecture & Privacy Safeguards:</span>
+            <ul class="feature-bullets">
+              <li>Engineered a hybrid OCR pipeline using <code>macOS Vision</code> with automated <code>Tesseract</code> fallback, integrated via <code>pypdf</code> and <code>openpyxl</code>.</li>
+              <li>Integrated an on-premises local LLM copilot using <code>Ollama</code> to review sensitive police documents without leaking sensitive data to public cloud APIs.</li>
+              <li>Architecting an internal web UI to facilitate non-technical officer verification.</li>
+            </ul>
+          </div>
+          <div class="tag-row">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Ollama (Local LLM)</span>
+            <span class="tech-tag">Tesseract OCR</span>
+            <span class="tech-tag">Data Privacy</span>
+            <span class="tech-tag">Law Enforcement Tech</span>
+          </div>
+        </article>
+
+        <!-- Card 3: Digital Forensics -->
+        <article class="achievement-card glow-border">
+          <div class="card-badge purple-badge">DIGITAL FORENSICS & INCIDENT RESPONSE</div>
+          <div class="card-header">
+            <h3>Mobile & Flash Media Evidence Acquisition</h3>
+            <span class="card-timeline">Forensic Research Internship</span>
+          </div>
+          <p class="card-summary">
+            Executed non-destructive physical and logical forensic acquisitions on storage media and mobile endpoints, adhering to strict judicial chain-of-custody protocols.
+          </p>
+          <div class="card-action-taken">
+            <span class="section-subtitle">Forensic Procedures Completed:</span>
+            <ul class="feature-bullets">
+              <li><strong>Zero-Surface Data Carving:</strong> Carved and recovered deleted emails, images, and system artifacts from an ostensibly formatted flash drive using raw block imaging.</li>
+              <li><strong>Forensic Hardware Duplication:</strong> Utilized physical write-blockers to extract Android device data via <code>Oxygen Forensics</code> and <code>FTK Imager</code> without altering MAC timestamps.</li>
+              <li><strong>Chain of Custody Documentation:</strong> Documented complete cryptographic hash verification (MD5/SHA256) ensuring evidence integrity for legal compliance.</li>
+            </ul>
+          </div>
+          <div class="tag-row">
+            <span class="tech-tag">FTK Imager</span>
+            <span class="tech-tag">Oxygen Forensics</span>
+            <span class="tech-tag">Hardware Write-Blockers</span>
+            <span class="tech-tag">Chain of Custody</span>
+            <span class="tech-tag">File Carving</span>
+          </div>
+        </article>
+
+        <!-- Card 4: Differential Privacy Project -->
+        <article class="achievement-card glow-border">
+          <div class="card-badge green-badge">PRIVACY ENGINEERING & CRYPTO</div>
+          <div class="card-header">
+            <h3>Privacy-Preserving Federated Recommendation System</h3>
+            <span class="card-timeline">Academic Project</span>
+          </div>
+          <p class="card-summary">
+            Designed and evaluated a distributed machine learning architecture that protects user location telemetry against reconstruction attacks while providing personalized recommendations.
+          </p>
+          <div class="card-action-taken">
+            <span class="section-subtitle">Technical Implementations:</span>
+            <ul class="feature-bullets">
+              <li>Formulated mathematical Differential Privacy mechanisms and <code>FedAvg</code> (Federated Averaging) aggregation algorithms.</li>
+              <li>Validated that decentralized model weights protect granular GPS coordinates while maintaining predictive recommendation utility.</li>
+            </ul>
+          </div>
+          <div class="tag-row">
+            <span class="tech-tag">Differential Privacy</span>
+            <span class="tech-tag">FedAvg</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Cryptographic Concepts</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECURITY ARSENAL & TOOLING -->
+    <section class="section-container" id="arsenal">
+      <div class="section-header">
+        <div class="section-tag">// DEFENSIVE & OFFENSIVE CAPABILITIES</div>
+        <h2 class="section-title">Technical <span class="gradient-text">Arsenal</span></h2>
+        <p class="section-desc">Categorized competencies aligned with SOC Tier 1, Vulnerability Management, and Forensics workflows.</p>
+      </div>
+
+      <div class="arsenal-grid">
+        <!-- Domain 1: SOC & SIEM -->
+        <div class="arsenal-card">
+          <div class="arsenal-icon">📊</div>
+          <h3>SOC & Threat Detection</h3>
+          <p class="arsenal-role">Blue Team & Incident Handling</p>
+          <ul class="skill-checklist">
+            <li><span class="bullet-check">✔</span> <strong>Splunk SIEM:</strong> SPL searching, log correlation, anomaly spotting</li>
+            <li><span class="bullet-check">✔</span> <strong>Log Analysis:</strong> Windows Event Logs, Syslog, Apache/Nginx web logs</li>
+            <li><span class="bullet-check">✔</span> <strong>IDS / IPS Concepts:</strong> Rule matching, alert triage, traffic anomalies</li>
+            <li><span class="bullet-check">✔</span> <strong>Wireshark:</strong> Packet capture analysis, TCP handshake & protocol inspection</li>
+            <li><span class="bullet-check">✔</span> <strong>Incident Response:</strong> NIST 800-61 stages, containment, root cause analysis</li>
+          </ul>
+        </div>
+
+        <!-- Domain 2: VAPT & Offensive -->
+        <div class="arsenal-card">
+          <div class="arsenal-icon">⚔️</div>
+          <h3>VAPT & Offensive Recon</h3>
+          <p class="arsenal-role">Red Team & Security Assessment</p>
+          <ul class="skill-checklist">
+            <li><span class="bullet-check">✔</span> <strong>Network Scanning:</strong> Nmap (OS discovery, service enumeration, NSE scripts)</li>
+            <li><span class="bullet-check">✔</span> <strong>Web Proxies:</strong> Burp Suite (repeater, intruder, proxy interception)</li>
+            <li><span class="bullet-check">✔</span> <strong>Directory Busting:</strong> Gobuster, Feroxbuster, Nikto, WhatWeb</li>
+            <li><span class="bullet-check">✔</span> <strong>OWASP Top 10:</strong> XST, sensitive data exposure, injection vectors</li>
+            <li><span class="bullet-check">✔</span> <strong>OS Environment:</strong> Kali Linux, Linux CLI, Bash navigation</li>
+          </ul>
+        </div>
+
+        <!-- Domain 3: Forensics & Integrity -->
+        <div class="arsenal-card">
+          <div class="arsenal-icon">🔍</div>
+          <h3>Digital Forensics & Evidence</h3>
+          <p class="arsenal-role">DFIR & Evidence Integrity</p>
+          <ul class="skill-checklist">
+            <li><span class="bullet-check">✔</span> <strong>FTK Imager:</strong> Physical disk acquisition, logical image dumps (.E01, .RAW)</li>
+            <li><span class="bullet-check">✔</span> <strong>Oxygen Forensics:</strong> Mobile device artifact analysis, call/app logs</li>
+            <li><span class="bullet-check">✔</span> <strong>Chain of Custody:</strong> Verification hashing (MD5/SHA256), strict evidence handling</li>
+            <li><span class="bullet-check">✔</span> <strong>Data Recovery:</strong> Carving unallocated sectors, residual file recovery</li>
+            <li><span class="bullet-check">✔</span> <strong>Hardware:</strong> Write-blocker duplicators for forensically sound imaging</li>
+          </ul>
+        </div>
+
+        <!-- Domain 4: Scripting & Automation -->
+        <div class="arsenal-card">
+          <div class="arsenal-icon">⚡</div>
+          <h3>Security Scripting & AI</h3>
+          <p class="arsenal-role">Automation & Privacy Safeguards</p>
+          <ul class="skill-checklist">
+            <li><span class="bullet-check">✔</span> <strong>Python Scripting:</strong> Security automation, regex log parsing, pypdf</li>
+            <li><span class="bullet-check">✔</span> <strong>Database Querying:</strong> SQL querying for forensic data inspection</li>
+            <li><span class="bullet-check">✔</span> <strong>Local AI Deployment:</strong> Ollama LLM pipelines for air-gapped text review</li>
+            <li><span class="bullet-check">✔</span> <strong>OCR Pipelines:</strong> Tesseract, macOS Vision integration</li>
+            <li><span class="bullet-check">✔</span> <strong>Network Simulators:</strong> Cisco Packet Tracer topology configuration</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE TERMINAL SECTION -->
+    <section class="section-container" id="terminal-section">
+      <div class="section-header">
+        <div class="section-tag">// INTERACTIVE SHELL</div>
+        <h2 class="section-title">SOC Operations <span class="gradient-text">Console</span></h2>
+        <p class="section-desc">Test Raghavendra's profile in real-time. Type commands or click the shortcut buttons below.</p>
+      </div>
+
+      <div class="terminal-wrapper glow-border">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <div class="terminal-title">raghavendra@soc-analyst: ~ (bash 5.2)</div>
+          <div class="terminal-help-hint">Type 'help' for available commands</div>
+        </div>
+
+        <div class="terminal-shortcuts">
+          <button class="cmd-pill" data-cmd="whoami">whoami</button>
+          <button class="cmd-pill" data-cmd="skills">skills</button>
+          <button class="cmd-pill" data-cmd="vapt-report">vapt-report</button>
+          <button class="cmd-pill" data-cmd="forensics-log">forensics-log</button>
+          <button class="cmd-pill" data-cmd="tryhackme">tryhackme</button>
+          <button class="cmd-pill" data-cmd="certifications">certifications</button>
+          <button class="cmd-pill" data-cmd="contact">contact</button>
+          <button class="cmd-pill" data-cmd="clear">clear</button>
+        </div>
+
+        <div class="terminal-body" id="terminal-output">
+          <div class="terminal-line banner-line">
+================================================================================
+  [+] SOC CONSOLE INITIALIZED :: HOST: HYDERABAD-OPS-NODE
+  [+] OPERATOR: P. Raghavendra (B.Tech Cyber Security)
+  [+] AVAILABLE COMMANDS: whoami, skills, vapt-report, forensics-log, 
+                          tryhackme, certifications, contact, clear
+================================================================================
+          </div>
+          <div class="terminal-line"><span class="prompt">raghavendra@soc:~$</span> <span class="cmd-text">whoami</span></div>
+          <div class="terminal-line response">
+Role: Entry-level SOC Analyst / Threat Hunter / Junior VAPT Specialist
+Status: Ready for deployment in Enterprise Security Operations Centers
+Key Strengths: Splunk SIEM, WireShark, Web App Testing, DFIR evidence handling, Python automation
+          </div>
+        </div>
+
+        <div class="terminal-input-row">
+          <span class="prompt">raghavendra@soc:~$</span>
+          <input type="text" id="terminal-input" placeholder="Type a command (e.g., 'skills', 'vapt-report', 'help')..." autocomplete="off" spellcheck="false">
+          <button id="terminal-submit-btn" class="terminal-run-btn">RUN</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK EXPERIENCE & INTERNSHIPS -->
+    <section class="section-container" id="experience">
+      <div class="section-header">
+        <div class="section-tag">// OPERATIONS & EXPERIENCE</div>
+        <h2 class="section-title">Work <span class="gradient-text">Timeline</span></h2>
+        <p class="section-desc">Hands-on roles in cybersecurity defense, research, and technical leadership.</p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Exp 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glow-card">
+            <div class="timeline-header-row">
+              <div>
+                <h3 class="timeline-title">Cybersecurity Intern</h3>
+                <h4 class="timeline-company">Society for Cyberabad Security Council (SCSC)</h4>
+              </div>
+              <div class="timeline-badge">May 2026 – Present</div>
+            </div>
+            <p class="timeline-desc">
+              Engaged in frontline security audits and law enforcement workflow automation to protect digital public infrastructure and speed up incident resolution.
+            </p>
+            <ul class="timeline-points">
+              <li>Conducted full-scope VAPT on live websites, uncovering 4 high-to-low vulnerabilities (OWASP Top 10, XST, missing SSL, orphaned files).</li>
+              <li>Built an OCR-based automated document triage tool, slashing case record transcription time by 83% (~30m to 5m) with ~85% accuracy.</li>
+              <li>Integrated local air-gapped LLM copilot (Ollama) to review sensitive citizen records without compromising confidentiality.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Exp 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glow-card">
+            <div class="timeline-header-row">
+              <div>
+                <h3 class="timeline-title">Digital Forensics & Data Recovery Intern</h3>
+                <h4 class="timeline-company">College Research Internship</h4>
+              </div>
+              <div class="timeline-badge">Academic Research</div>
+            </div>
+            <p class="timeline-desc">
+              Executed forensically sound data acquisitions and artifact recoveries following judicial chain-of-custody standards.
+            </p>
+            <ul class="timeline-points">
+              <li>Recovered hidden & deleted communications, emails, and photos from formatted flash drives using file carving techniques.</li>
+              <li>Created bitstream forensic duplicates of Android endpoints using hardware write-blockers and Oxygen Forensics.</li>
+              <li>Ensured 100% hash verification across acquisition phases to maintain legal admissibility.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Exp 3 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glow-card">
+            <div class="timeline-header-row">
+              <div>
+                <h3 class="timeline-title">Founder & Digital Strategist</h3>
+                <h4 class="timeline-company">Quadrabeam Creations</h4>
+              </div>
+              <div class="timeline-badge">Leadership & Operations</div>
+            </div>
+            <p class="timeline-desc">
+              Spearheaded brand identity, data-driven content analysis, and client engagement strategies.
+            </p>
+            <ul class="timeline-points">
+              <li>Analyzed engagement metrics and competitor patterns to deliver high-converting creative strategies for clients.</li>
+              <li>Exercised strategic leadership, risk management, and cross-functional conflict resolution in client delivery.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & EDUCATION -->
+    <section class="section-container" id="education">
+      <div class="section-header">
+        <div class="section-tag">// QUALIFICATIONS</div>
+        <h2 class="section-title">Certifications & <span class="gradient-text">Education</span></h2>
+        <p class="section-desc">Formal degree in Cyber Security paired with continuous technical certification.</p>
+      </div>
+
+      <div class="cert-edu-grid">
+        <!-- Education Column -->
+        <div class="edu-column">
+          <h3 class="column-heading">🎓 Academic Track</h3>
+          
+          <div class="edu-card glow-card">
+            <div class="edu-years">2022 – 2026</div>
+            <h4 class="edu-degree">B.Tech – Computer Science (Cyber Security)</h4>
+            <div class="edu-school">GITAM University, Hyderabad</div>
+            <div class="edu-score"><span class="highlight">CGPA: 7.5</span> / 10</div>
+            <p class="edu-notes">Rigorous coursework in Cryptography, Network Security, Operating Systems, SIEM Log Analysis, and Secure Coding.</p>
+          </div>
+
+          <div class="edu-card glow-card">
+            <div class="edu-years">2020 – 2022</div>
+            <h4 class="edu-degree">Intermediate (MPC)</h4>
+            <div class="edu-school">Sri Chaitanya Junior Kalasala</div>
+            <div class="edu-score"><span class="highlight">Score: 82.6%</span></div>
+          </div>
+
+          <div class="edu-card glow-card">
+            <div class="edu-years">2020</div>
+            <h4 class="edu-degree">Secondary Education (CBSE)</h4>
+            <div class="edu-school">Bharatiya Vidya Bhavan's Public School</div>
+            <div class="edu-score"><span class="highlight">Score: 77.0%</span></div>
+          </div>
+        </div>
+
+        <!-- Certifications Column -->
+        <div class="cert-column">
+          <h3 class="column-heading">📜 Verified Certifications</h3>
+
+          <div class="cert-card glow-card">
+            <div class="cert-icon">🔒</div>
+            <div class="cert-info">
+              <h4>Cisco – Introduction to Cybersecurity</h4>
+              <p>Fundamentals of threat vectors, security architecture, and defensive hygiene.</p>
+            </div>
+          </div>
+
+          <div class="cert-card glow-card">
+            <div class="cert-icon">🌐</div>
+            <div class="cert-info">
+              <h4>Cisco – Getting Started with Cisco Packet Tracer</h4>
+              <p>Network topology configuration, router/switch inspection, subnetting, and packet routing.</p>
+            </div>
+          </div>
+
+          <div class="cert-card glow-card">
+            <div class="cert-icon">🐍</div>
+            <div class="cert-info">
+              <h4>Cisco – Python Essentials 1 & 2</h4>
+              <p>Object-oriented programming, data structures, and script automation.</p>
+            </div>
+          </div>
+
+          <div class="cert-card glow-card">
+            <div class="cert-icon">⚔️</div>
+            <div class="cert-info">
+              <h4>Internshala – Ethical Hacking</h4>
+              <p>Reconnaissance, vulnerability discovery, scanning, and penetration testing workflows.</p>
+            </div>
+          </div>
+
+          <div class="cert-card glow-card">
+            <div class="cert-icon">🎓</div>
+            <div class="cert-info">
+              <h4>University of Michigan – Programming for Everybody (Python)</h4>
+              <p>Algorithmic thinking, data handling, and automated processing.</p>
+            </div>
+          </div>
+
+          <div class="cert-card glow-card">
+            <div class="cert-icon">💻</div>
+            <div class="cert-info">
+              <h4>Cisco – C for Everyone</h4>
+              <p>Low-level memory management and structured systems programming.</p>
+            </div>
+          </div>
+
+          <!-- TryHackMe Live Card -->
+          <div class="thm-banner glow-border">
+            <div class="thm-header">
+              <span class="thm-logo">🔴 TryHackMe Rank</span>
+              <span class="thm-badge">TOP 20% GLOBAL</span>
+            </div>
+            <p>Hands-on practical labs completed: <strong>34+ Rooms</strong> covering Linux Fundamentals, Network Services, Web App Security, and Incident Triage.</p>
+            <a href="https://tryhackme.com/p/raghavsai90" target="_blank" rel="noopener" class="thm-link">
+              Verify TryHackMe Profile &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / HIRE SECTION -->
+    <section class="section-container" id="contact">
+      <div class="contact-card-wrapper glow-border">
+        <div class="contact-header">
+          <div class="section-tag">// SECURE TRANSMISSION CHANNEL</div>
+          <h2 class="contact-title">Ready to Bolster Your <span class="gradient-text">Security Team</span>?</h2>
+          <p class="contact-desc">
+            Currently seeking an entry-level <strong>SOC Analyst</strong>, <strong>Security Operations</strong>, or <strong>Junior VAPT</strong> role. Open to relocation and immediate joining.
+          </p>
+        </div>
+
+        <div class="contact-details-grid">
+          <div class="contact-item">
+            <span class="ci-label">EMAIL:</span>
+            <a href="mailto:peddentiraghavendra@gmail.com" class="ci-link">peddentiraghavendra@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <span class="ci-label">PHONE:</span>
+            <a href="tel:+919392538857" class="ci-link">+91 9392538857</a>
+          </div>
+          <div class="contact-item">
+            <span class="ci-label">LOCATION:</span>
+            <span class="ci-val">Hyderabad, Telangana, India</span>
+          </div>
+          <div class="contact-item">
+            <span class="ci-label">PROFILES:</span>
+            <div class="ci-social-links">
+              <a href="https://linkedin.com/in/raghavendra-peddinti" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="sep">•</span>
+              <a href="https://github.com/saaaaikrrish" target="_blank" rel="noopener">GitHub</a>
+              <span class="sep">•</span>
+              <a href="https://tryhackme.com/p/raghavsai90" target="_blank" rel="noopener">TryHackMe</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-actions">
+          <a href="mailto:peddentiraghavendra@gmail.com?subject=Job%20Opportunity%20-%20Cybersecurity%20Role" class="btn-primary">
+            <span>Send Direct Message</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </a>
+          <button class="btn-secondary" id="copy-email-btn">
+            <span id="copy-text">Copy Email Address</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="cyber-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <span class="code-bracket">[</span> P. RAGHAVENDRA <span>// CYBERSECURITY SPECIALIST</span> <span class="code-bracket">]</span>
+      </div>
+      <div class="footer-center">
+        <span>SECURITY LEVEL: NORMAL</span> • <span>ZERO DEFECT TARGET</span>
+      </div>
+      <div class="footer-right">
+        <span>© 2026 P. Raghavendra. Built with modern web standards.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
